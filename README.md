@@ -32,3 +32,26 @@ The program prompts for three integer values:
 - If the average exceeds 95, displays a congratulatory message
 
 ## Example
+Enter your score for test 1: 98
+Enter your score for test 2: 95
+Enter your score for test 3: 97
+
+Your average score is 96.7
+
+Congratulations! on achieving a high score
+
+
+## Code Structure
+1. Defines `HIGH_SCORE` constant
+2. Collects three test scores from user input
+3. Calculates the average
+4. Displays the average
+5. Checks if average exceeds `HIGH_SCORE` and provides feedback
+
+## Notes
+- Input values should be integers
+- The program assumes valid numeric input
+- The high score threshold can be modified by changing the `HIGH_SCORE` constant
+
+## Created
+- Date: March 10, 2025
